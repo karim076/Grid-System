@@ -7,14 +7,25 @@
 .card {
     background-color: dodgerblue;
     color: white;
-    padding: 1rem;
-    height: 4rem;
+    padding: 40px;
 }
 
 .card-big {
+    padding: 40px;
     background-color: dodgerblue;
     color: white;
-    padding: 1rem;
-    height: 4rem;
-    -ms-grid-column-span: 2;
+    display: flex;
+    justify-content: center;
+    grid-column: span 2;
 }
+.card-row {
+    padding: 40px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    grid-row: span 2;
+}
+@media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+ }
