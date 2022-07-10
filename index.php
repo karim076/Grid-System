@@ -11,7 +11,9 @@
             
         </header>
         <main>
-
+            <div class="grid">
+                
+            </div>
         </main>
         <footer>
 
