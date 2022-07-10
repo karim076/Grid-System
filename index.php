@@ -1,5 +1,5 @@
 <<!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -14,7 +14,7 @@
 
         </main>
         <footer>
-            
+
         </footer>
     </body>
 </html>
